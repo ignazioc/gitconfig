@@ -1,0 +1,8 @@
+[alias]
+	branches = branch -a
+	tags = tag
+	stashes = stash list
+	remotes = remote -v
+	commits = log
+	lg = log -n10 --pretty=format:"%C(magenta)%h%Creset %C(blue)%ad%Creset %<(100)%s %C(cyan)[%an]%Creset" --date=short
+	lgg --pretty=format:"%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s" --date=short
